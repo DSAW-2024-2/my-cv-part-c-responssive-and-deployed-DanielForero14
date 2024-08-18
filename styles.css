@@ -1,0 +1,87 @@
+/* Importar el coso de las letras y tipografias */
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap");
+
+/*Modificaciones a todo el body del archivo */
+body {
+  color: #333333; /* Colores para el texto */
+  margin: 0; /* Eliminamos la margin predefinida */
+  padding: 0; /* Eliminamos el padding predefinida */
+  font-family: "EB Garamond", serif; /* Le ponesmos la tipografia que queremos si que si  */
+  background-image: url("https://img.freepik.com/foto-gratis/fondo-textura-acuarela-violeta_1083-172.jpg?1"); /* Utilizamos  una imagen de gooooogle de fondo */
+  background-size: cover; /* Asegura que la imagen de fondo cubra todo el contenedor o espacio de la pagina */
+  background-position: center; /* Centra la imagen de fondo dentro del contenedor o espacio de la pagina */
+  background-repeat: no-repeat; /* Por defecto las imágenes de fondo se repiten para llenar todo. Esta cosa evita que la imagen se repita. Se mostraria una vez pero modificada para el espacio */
+}
+
+.header {
+  background-color: #6a0dad; /* Color del fondo del header */
+  color: white; /* Color pa las letras */
+  padding: 20px; /* Espacio interno de 20 píxeles en todos los lados */
+  text-align: center; /* Centra el texto horizontalmente */
+  font-family: "Lora", serif;  /* Fuente de texto "Lora", con serif */
+  margin: 0px auto; /* Margen superior e inferior de 0 píxeles y centrar horizontalmente con auto */
+  margin-bottom: 20px;
+  border-bottom: 5px solid white; /* Borde de 5 píxeles sólido y blanco */
+  border-left: 5px solid white; /* Borde de 5 píxeles sólido y blanco */
+  border-right: 5px solid white; /* Borde de 5 píxeles sólido y blanco */
+  box-shadow: 0 0 10px purple; /* Sombra de caja con un desenfoque de 10 píxeles en color púrpura */
+  max-width: 800px; /* Limita el ancho para mejorar la legibilidad */
+}
+
+.main {
+  background-color: white; 
+  border: 5px solid white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px; /* Limita el ancho para mejorar la legibilidad */
+  box-shadow: 0 0 10px purple; /* Añadir sombra para mayor profundidad */
+}
+.footer {
+  background-color: #ffffff;
+  border: 5px solid white; /* Bordes más suaves */
+  padding: 20px;
+  margin: 20px auto; /* Margen de 20 píxeles y centrar horizontalmente con auto */
+  max-width: 800px; 
+  box-shadow: 0 0 10px purple;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0 0 10px 0; /* Espacio debajo de los encabezados */
+}
+
+h1 {
+  font-size: 2.5em; /* Tamaño de fuente grande para el nombre */
+}
+
+h2 {
+  font-size: 2em;
+  color: #6a0dad; /* Color morado para los títulos principales */
+}
+
+h3,
+h4,
+h5 {
+  font-size: 1.2em;
+}
+
+p {
+  margin: 0 0 10px 0; /* Espacio debajo de los párrafos */
+}
+
+ul {
+  margin: 0;
+
+  list-style-type: square; /* Cambio para que en vez de puntos sean cuadrados los listados */
+
+  padding-left: 20px; 
+}
+
+li {
+  margin: 0 0 5px 0; /* Espacio debajo de los elementos de la lista */
+}
+
